@@ -1,6 +1,6 @@
 
 
-Diabetes Monitoring is a project based on Glucosio [Essentially for learning and training purposes]
+Diabetes Monitoring is a project based on the Glucosio Project [Essentially for learning and training purposes]
 
 
 
