@@ -26,7 +26,7 @@ android {
     compileSdkVersion buildConfig.compileSdk
 
     defaultConfig {
-        applicationId 'org.glucosio.android'
+        applicationId 'org.diabetesmonitoring.android'
         minSdkVersion buildConfig.minSdkWear
         targetSdkVersion buildConfig.compileSdk
         versionCode buildConfig.versionCode

@@ -24,7 +24,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.glucosio.android.activity.AddCholesterolActivity">
+    tools:context="org.glucosio.android.faithworks.glucosio.android.activity.AddCholesterolActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -164,7 +164,7 @@
 
                 </LinearLayout>
 
-                <org.glucosio.android.tools.LabelledSpinner
+                <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
                     android:id="@+id/glucose_add_reading_type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

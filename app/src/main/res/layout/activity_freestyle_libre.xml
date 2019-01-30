@@ -22,7 +22,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.A1cCalculatorActivity">
+    tools:context="faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity">
 
     <LinearLayout
         android:id="@+id/activity_freestyle_intro"

@@ -51,7 +51,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".GlucosioApplication"
+        android:name="faithworks.diabetesmonitoring.android.GlucosioApplication"
         android:allowBackup="true"
         android:configChanges="locale"
         android:icon="@mipmap/ic_launcher"
@@ -59,30 +59,30 @@
         android:supportsRtl="true"
         android:theme="@style/GlucosioTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/GlucosioTheme" />
         <activity
-            android:name=".activity.HelloActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.HelloActivity"
             android:label="@string/title_activity_hello"
             android:theme="@style/AppThemeNoActionBar" />
         <activity
-            android:name=".activity.PreferencesActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.PreferencesActivity"
             android:theme="@style/GlucosioSettings" />
         <activity
-            android:name=".activity.ExternalLinkActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.ExternalLinkActivity"
             android:theme="@style/GlucosioSettings" />
         <activity
-            android:name=".activity.AboutActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AboutActivity"
             android:theme="@style/GlucosioSettings" />
         <activity
-            android:name=".activity.BackupActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.BackupActivity"
             android:label="@string/title_activity_backup_drive"
-            android:parentActivityName=".activity.PreferencesActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.PreferencesActivity"
             android:theme="@style/GlucosioSettings">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.PreferencesActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.PreferencesActivity" />
         </activity>
 
         <provider
@@ -97,61 +97,61 @@
         </provider>
 
         <activity
-            android:name=".activity.AddGlucoseActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity"
             android:label="@string/title_activity_add_glucose"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.AddWeightActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddWeightActivity"
             android:label="@string/title_activity_add_weight"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.AddCholesterolActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddCholesterolActivity"
             android:label="@string/title_activity_add_cholesterol"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.AddKetoneActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddKetoneActivity"
             android:label="@string/title_activity_add_ketone"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.AddPressureActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddPressureActivity"
             android:label="@string/title_activity_add_pressure"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.AddA1CActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.AddA1CActivity"
             android:label="@string/title_activity_add_hb1ac"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.FreestyleLibreActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.FreestyleLibreActivity"
             android:screenOrientation="portrait">
 
             <!-- NFC for FreeStyle -->
@@ -166,14 +166,14 @@
                 android:resource="@xml/nfc_tech_filter" />
         </activity>
         <activity
-            android:name=".activity.A1cCalculatorActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity"
             android:label="@string/activity_converter_title"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName="faithworks.diabetesmonitoring.android.activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.activity.MainActivity" />
+                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
         </activity>
 
         <!-- Google Cloud Messaging receiver -->
@@ -191,19 +191,19 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".service.DataLayerListenerService">
+        <service android:name="faithworks.diabetesmonitoring.android.service.DataLayerListenerService">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
         </service>
-        <service android:name=".service.GlucosioFirebaseMessagingService">
+        <service android:name="faithworks.diabetesmonitoring.android.service.GlucosioFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <receiver
-            android:name="org.glucosio.android.receivers.GlucosioBroadcastReceiver"
+            android:name="org.glucosio.android.faithworks.glucosio.android.receivers.GlucosioBroadcastReceiver"
             android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -247,7 +247,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="faithworks.diabetesmonitoring.android.activity.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -259,7 +259,7 @@
                 android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
         </activity>
-        <activity android:name=".activity.RemindersActivity"></activity>
+        <activity android:name="faithworks.diabetesmonitoring.android.activity.RemindersActivity"></activity>
     </application>
 
 </manifest>

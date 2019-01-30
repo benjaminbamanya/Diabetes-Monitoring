@@ -184,7 +184,7 @@
             android:paddingBottom="32dp"
             android:scrollbars="vertical"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:context="org.glucosio.android.fragment.HistoryFragment" />
+            tools:context="org.glucosio.android.faithworks.glucosio.android.fragment.HistoryFragment" />
 
     </LinearLayout>
 

@@ -9,7 +9,7 @@
         android:shortcutShortLabel="@string/fab_glucose">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddGlucoseActivity"
+            android:targetClass="faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity"
             android:targetPackage="org.glucosio.android" />
     </shortcut>
     <shortcut
@@ -21,7 +21,7 @@
         android:shortcutShortLabel="@string/fab_weight">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddWeightActivity"
+            android:targetClass="faithworks.diabetesmonitoring.android.activity.AddWeightActivity"
             android:targetPackage="org.glucosio.android" />
     </shortcut>
     <shortcut
@@ -33,7 +33,7 @@
         android:shortcutShortLabel="@string/fab_HB1AC">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddA1CActivity"
+            android:targetClass="faithworks.diabetesmonitoring.android.activity.AddA1CActivity"
             android:targetPackage="org.glucosio.android" />
     </shortcut>
     <shortcut
@@ -45,7 +45,7 @@
         android:shortcutShortLabel="@string/fab_pressure">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddPressureActivity"
+            android:targetClass="faithworks.diabetesmonitoring.android.activity.AddPressureActivity"
             android:targetPackage="org.glucosio.android" />
     </shortcut>
 </shortcuts>

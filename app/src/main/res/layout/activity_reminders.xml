@@ -5,7 +5,7 @@
     android:id="@+id/activity_reminders"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.glucosio.android.activity.RemindersActivity">
+    tools:context="org.glucosio.android.faithworks.glucosio.android.activity.RemindersActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/activity_main_toolbar"

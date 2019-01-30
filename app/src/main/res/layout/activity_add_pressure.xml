@@ -23,7 +23,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.glucosio.android.activity.AddPressureActivity">
+    tools:context="org.glucosio.android.faithworks.glucosio.android.activity.AddPressureActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

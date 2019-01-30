@@ -1,0 +1,25 @@
+package faithworks.diabetesmonitoring.android.tools;
+
+import android.content.res.Resources;
+
+import faithworks.diabetesmonitoring.android.RobolectricTest;
+import org.junit.Test;
+import org.robolectric.RuntimeEnvironment;
+
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class LocaleHelperTest extends RobolectricTest {
+    private LocaleHelper helper = new LocaleHelper();
+
+    @Test
+    public void ShouldReturnAtLeastEnglish_WhenAsked() {
+        final Resources resources = RuntimeEnvironment.application.getResources();
+
+        final List<String> localesWithTranslation = helper.getLocalesWithTranslation(resources);
+
+        assertThat(localesWithTranslation.size()).isGreaterThanOrEqualTo(1);
+        assertThat(localesWithTranslation).contains("en");
+    }
+}

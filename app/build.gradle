@@ -35,7 +35,7 @@ android {
         targetSdkVersion buildConfig.targetSdk
         versionCode buildConfig.versionCode
         versionName buildConfig.versionName
-        applicationId 'org.glucosio.android'
+        applicationId 'org.diabetesmonitoring.android'
 
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'

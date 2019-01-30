@@ -24,7 +24,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.A1cCalculatorActivity">
+    tools:context="faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/activity_main_toolbar"
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <org.glucosio.android.tools.NotDismissableEditText
+                    <faithworks.diabetesmonitoring.android.tools.NotDismissableEditText
                         android:id="@+id/activity_converter_a1c_glucose"
                         fontPath="fonts/lato-light.ttf"
                         android:layout_width="0dp"

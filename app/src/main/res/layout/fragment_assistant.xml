@@ -81,7 +81,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:paddingBottom="52dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="org.glucosio.android.fragment.AssistantFragment" />
+        tools:context="org.glucosio.android.faithworks.glucosio.android.fragment.AssistantFragment" />
 
     <LinearLayout
         android:id="@+id/fragment_assistant_archived"

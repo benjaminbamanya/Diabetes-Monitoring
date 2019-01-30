@@ -25,7 +25,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context="org.glucosio.android.activity.HelloActivity">
+    tools:context="org.glucosio.android.faithworks.glucosio.android.activity.HelloActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:textColor="@color/glucosio_text"
             android:textSize="@dimen/abc_text_size_subhead_material" />
 
-        <org.glucosio.android.tools.LabelledSpinner
+        <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
             android:id="@+id/activity_hello_spinner_country"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             custom:labelText="@string/helloactivity_country"
             custom:widgetColor="@color/glucosio_pink" />
 
-        <org.glucosio.android.tools.LabelledSpinner
+        <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
             android:id="@+id/activity_hello_spinner_language"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
                     android:textSize="@dimen/abc_text_size_body_2_material" />
             </android.support.design.widget.TextInputLayout>
 
-            <org.glucosio.android.tools.LabelledSpinner
+            <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
                 android:id="@+id/activity_hello_spinner_gender"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <org.glucosio.android.tools.LabelledSpinner
+            <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
                 android:id="@+id/activity_hello_spinner_diabetes_type"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
                 custom:labelText="@string/helloactivity_spinner_diabetes_type"
                 custom:widgetColor="@color/glucosio_pink" />
 
-            <org.glucosio.android.tools.LabelledSpinner
+            <faithworks.diabetesmonitoring.android.tools.LabelledSpinner
                 android:id="@+id/activity_hello_spinner_preferred_unit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

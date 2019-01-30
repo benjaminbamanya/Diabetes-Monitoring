@@ -34,7 +34,7 @@ script:
 - ./gradlew testDebugUnitTest assembleDebug jacocoTestReport
 
 notifications:
-  slack: glucosio:uk2xb9sAxOaVedj7zePyuBqa
+  slack: diabetesmonitoring:uk2xb9sAxOaVedj7zePyuBqa
 
 before_cache:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
