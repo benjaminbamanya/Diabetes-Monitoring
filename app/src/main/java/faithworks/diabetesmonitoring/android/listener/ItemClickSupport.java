@@ -23,7 +23,7 @@ package faithworks.diabetesmonitoring.android.listener;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 
 
 /**

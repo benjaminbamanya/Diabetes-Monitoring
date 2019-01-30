@@ -42,9 +42,14 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Locale;
+
 import faithworks.diabetesmonitoring.android.Constants;
 import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.analytics.Analytics;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 import faithworks.diabetesmonitoring.android.db.User;
@@ -53,12 +58,6 @@ import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
 import faithworks.diabetesmonitoring.android.tools.InputFilterMinMax;
 import faithworks.diabetesmonitoring.android.tools.LocaleHelper;
 import faithworks.diabetesmonitoring.android.tools.ReadingTools;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Locale;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class PreferencesActivity extends AppCompatActivity {

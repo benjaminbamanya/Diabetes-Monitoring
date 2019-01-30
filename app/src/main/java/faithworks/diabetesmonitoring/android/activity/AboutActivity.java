@@ -30,13 +30,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.analytics.Analytics;
-import faithworks.diabetesmonitoring.android.tools.network.GlucosioExternalLinks;
-
 import java.util.Locale;
 
+import faithworks.diabetesmonitoring.android.GlucosioApplication;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.analytics.Analytics;
+import faithworks.diabetesmonitoring.android.tools.network.GlucosioExternalLinks;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class AboutActivity extends AppCompatActivity {

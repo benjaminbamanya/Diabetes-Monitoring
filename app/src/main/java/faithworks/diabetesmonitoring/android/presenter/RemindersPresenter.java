@@ -2,15 +2,15 @@ package faithworks.diabetesmonitoring.android.presenter;
 
 import android.widget.ListAdapter;
 
-import org.glucosio.android.R;
+import java.util.Calendar;
+import java.util.Date;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.activity.RemindersActivity;
 import faithworks.diabetesmonitoring.android.adapter.RemindersAdapter;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 import faithworks.diabetesmonitoring.android.db.Reminder;
 import faithworks.diabetesmonitoring.android.tools.GlucosioAlarmManager;
-
-import java.util.Calendar;
-import java.util.Date;
 
 public class RemindersPresenter {
 

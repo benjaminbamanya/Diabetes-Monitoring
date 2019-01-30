@@ -25,13 +25,13 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.glucosio.android.R;
+import java.util.Calendar;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.WeightReading;
 import faithworks.diabetesmonitoring.android.presenter.AddWeightPresenter;
 import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
 import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
-
-import java.util.Calendar;
 
 public class AddWeightActivity extends AddReadingActivity {
 

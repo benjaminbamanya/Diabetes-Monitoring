@@ -20,14 +20,6 @@
 
 package faithworks.diabetesmonitoring.android.presenter;
 
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
-import faithworks.diabetesmonitoring.android.db.GlucoseReading;
-import faithworks.diabetesmonitoring.android.object.A1cEstimate;
-import faithworks.diabetesmonitoring.android.object.DoubleGraphObject;
-import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
-import faithworks.diabetesmonitoring.android.tools.TipsManager;
-import faithworks.diabetesmonitoring.android.view.OverviewView;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
 import org.joda.time.format.DateTimeFormat;
@@ -40,6 +32,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
+
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
+import faithworks.diabetesmonitoring.android.db.GlucoseReading;
+import faithworks.diabetesmonitoring.android.object.A1cEstimate;
+import faithworks.diabetesmonitoring.android.object.DoubleGraphObject;
+import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
+import faithworks.diabetesmonitoring.android.tools.TipsManager;
+import faithworks.diabetesmonitoring.android.view.OverviewView;
 
 public class OverviewPresenter {
 

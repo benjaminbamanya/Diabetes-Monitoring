@@ -25,7 +25,7 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.VisibleForTesting;
 import android.support.v4.content.ContextCompat;
 
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 
 public class GlucoseRanges {

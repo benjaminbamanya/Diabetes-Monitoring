@@ -22,10 +22,10 @@ package faithworks.diabetesmonitoring.android.tools;
 
 import android.content.Context;
 
-import org.glucosio.android.R;
-
 import java.util.ArrayList;
 import java.util.Collections;
+
+import faithworks.diabetesmonitoring.android.R;
 
 public class TipsManager {
     private Context mContext;

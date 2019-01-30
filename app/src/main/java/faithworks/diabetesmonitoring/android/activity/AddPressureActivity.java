@@ -25,12 +25,12 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.glucosio.android.R;
+import java.util.Calendar;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.PressureReading;
 import faithworks.diabetesmonitoring.android.presenter.AddPressurePresenter;
 import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
-
-import java.util.Calendar;
 
 public class AddPressureActivity extends AddReadingActivity {
 

@@ -32,9 +32,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import java.text.DecimalFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+
 import faithworks.diabetesmonitoring.android.Constants;
 import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.analytics.Analytics;
 import faithworks.diabetesmonitoring.android.db.GlucoseReading;
 import faithworks.diabetesmonitoring.android.presenter.AddGlucosePresenter;
@@ -42,10 +46,6 @@ import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
 import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
 import faithworks.diabetesmonitoring.android.tools.LabelledSpinner;
 import faithworks.diabetesmonitoring.android.tools.ReadingTools;
-
-import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.Calendar;
 
 
 public class AddGlucoseActivity extends AddReadingActivity {

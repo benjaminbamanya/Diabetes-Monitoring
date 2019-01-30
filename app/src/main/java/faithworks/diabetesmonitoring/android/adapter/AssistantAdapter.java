@@ -29,11 +29,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.glucosio.android.R;
+import java.util.List;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.object.ActionTip;
 import faithworks.diabetesmonitoring.android.presenter.AssistantPresenter;
-
-import java.util.List;
 
 public class AssistantAdapter extends RecyclerView.Adapter<AssistantAdapter.ViewHolder> {
     private List<ActionTip> actionTips;

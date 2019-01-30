@@ -37,15 +37,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.analytics.Analytics;
-import faithworks.diabetesmonitoring.android.presenter.HelloPresenter;
-import faithworks.diabetesmonitoring.android.tools.LabelledSpinner;
-import faithworks.diabetesmonitoring.android.tools.LocaleHelper;
-import faithworks.diabetesmonitoring.android.tools.network.GlucosioExternalLinks;
-import faithworks.diabetesmonitoring.android.view.HelloView;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -54,6 +45,14 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import faithworks.diabetesmonitoring.android.GlucosioApplication;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.analytics.Analytics;
+import faithworks.diabetesmonitoring.android.presenter.HelloPresenter;
+import faithworks.diabetesmonitoring.android.tools.LabelledSpinner;
+import faithworks.diabetesmonitoring.android.tools.LocaleHelper;
+import faithworks.diabetesmonitoring.android.tools.network.GlucosioExternalLinks;
+import faithworks.diabetesmonitoring.android.view.HelloView;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class HelloActivity extends AppCompatActivity implements HelloView {

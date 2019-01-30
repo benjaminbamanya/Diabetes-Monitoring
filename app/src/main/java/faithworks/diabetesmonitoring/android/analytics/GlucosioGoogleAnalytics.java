@@ -13,6 +13,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 
 import faithworks.diabetesmonitoring.android.BuildConfig;
 
+
 public class GlucosioGoogleAnalytics implements Analytics {
     private Tracker mTracker;
     private FirebaseAnalytics mFirebaseAnalytics;

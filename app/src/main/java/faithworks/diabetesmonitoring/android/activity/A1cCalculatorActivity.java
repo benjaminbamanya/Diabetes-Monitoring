@@ -33,16 +33,15 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
-import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.presenter.A1CCalculatorPresenter;
-
 import java.text.NumberFormat;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnEditorAction;
 import butterknife.OnTextChanged;
+import faithworks.diabetesmonitoring.android.GlucosioApplication;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.presenter.A1CCalculatorPresenter;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class A1cCalculatorActivity extends AppCompatActivity {

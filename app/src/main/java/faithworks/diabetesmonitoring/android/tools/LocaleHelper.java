@@ -6,15 +6,15 @@ import android.content.res.Resources;
 import android.support.annotation.NonNull;
 import android.util.DisplayMetrics;
 
-import faithworks.diabetesmonitoring.android.BuildConfig;
-import org.glucosio.android.R;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+
+import faithworks.diabetesmonitoring.android.BuildConfig;
+import faithworks.diabetesmonitoring.android.R;
 
 public class LocaleHelper {
     private Locale getLocale(String languageTag) {

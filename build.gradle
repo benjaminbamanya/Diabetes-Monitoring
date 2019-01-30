@@ -72,5 +72,5 @@ allprojects {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = versions.gradle
+    gradleVersion = 4.7
 }

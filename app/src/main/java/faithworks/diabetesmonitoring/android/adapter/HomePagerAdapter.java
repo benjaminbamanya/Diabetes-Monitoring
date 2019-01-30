@@ -25,7 +25,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.fragment.AssistantFragment;
 import faithworks.diabetesmonitoring.android.fragment.HistoryFragment;
 import faithworks.diabetesmonitoring.android.fragment.OverviewFragment;

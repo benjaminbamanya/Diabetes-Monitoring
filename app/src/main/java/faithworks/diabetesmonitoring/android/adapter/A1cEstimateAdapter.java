@@ -8,16 +8,16 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.text.NumberFormat;
+import java.util.List;
+
 import faithworks.diabetesmonitoring.android.Constants;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 import faithworks.diabetesmonitoring.android.object.A1cEstimate;
 import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
 import faithworks.diabetesmonitoring.android.tools.NumberFormatUtils;
 import faithworks.diabetesmonitoring.android.tools.ReadingTools;
-
-import java.text.NumberFormat;
-import java.util.List;
 
 public class A1cEstimateAdapter extends ArrayAdapter<A1cEstimate> {
     private final DatabaseHandler databaseHandler;

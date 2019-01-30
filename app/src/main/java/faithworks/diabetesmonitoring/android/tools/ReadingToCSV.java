@@ -26,14 +26,14 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import faithworks.diabetesmonitoring.android.Constants;
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.db.GlucoseReading;
-
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.text.NumberFormat;
 import java.util.List;
+
+import faithworks.diabetesmonitoring.android.Constants;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.db.GlucoseReading;
 
 public final class ReadingToCSV {
 

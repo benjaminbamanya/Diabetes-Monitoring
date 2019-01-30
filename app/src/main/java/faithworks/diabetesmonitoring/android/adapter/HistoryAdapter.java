@@ -28,16 +28,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.text.NumberFormat;
+import java.util.Collections;
+import java.util.List;
+
 import faithworks.diabetesmonitoring.android.Constants;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.presenter.HistoryPresenter;
 import faithworks.diabetesmonitoring.android.tools.GlucoseRanges;
 import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
 import faithworks.diabetesmonitoring.android.tools.NumberFormatUtils;
-
-import java.text.NumberFormat;
-import java.util.Collections;
-import java.util.List;
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHolder> {
     private final int metricId;

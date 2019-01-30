@@ -14,16 +14,15 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.presenter.AddReadingPresenter;
-import faithworks.diabetesmonitoring.android.tools.AnimationTools;
-import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
-import faithworks.diabetesmonitoring.android.tools.NumberFormatUtils;
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Calendar;
 
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.presenter.AddReadingPresenter;
+import faithworks.diabetesmonitoring.android.tools.AnimationTools;
+import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
+import faithworks.diabetesmonitoring.android.tools.NumberFormatUtils;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public abstract class AddReadingActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener, DatePickerDialog.OnDateSetListener {

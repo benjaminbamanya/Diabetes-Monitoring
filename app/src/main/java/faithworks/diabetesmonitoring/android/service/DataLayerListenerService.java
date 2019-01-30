@@ -30,14 +30,14 @@ import android.util.Log;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.WearableListenerService;
 
-import org.glucosio.android.R;
+import java.nio.charset.StandardCharsets;
+import java.util.Calendar;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.activity.MainActivity;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 import faithworks.diabetesmonitoring.android.db.GlucoseReading;
 import faithworks.diabetesmonitoring.android.tools.ReadingTools;
-
-import java.nio.charset.StandardCharsets;
-import java.util.Calendar;
 
 public class DataLayerListenerService extends WearableListenerService {
 

@@ -27,8 +27,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 
-import org.glucosio.android.R;
-
 import faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity;
 import faithworks.diabetesmonitoring.android.activity.HelloActivity;
 import faithworks.diabetesmonitoring.android.analytics.Analytics;
@@ -41,7 +39,6 @@ import faithworks.diabetesmonitoring.android.presenter.A1CCalculatorPresenter;
 import faithworks.diabetesmonitoring.android.presenter.HelloPresenter;
 import faithworks.diabetesmonitoring.android.tools.LocaleHelper;
 import faithworks.diabetesmonitoring.android.tools.Preferences;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 public class GlucosioApplication extends Application {

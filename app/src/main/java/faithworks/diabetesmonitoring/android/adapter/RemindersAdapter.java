@@ -11,13 +11,13 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import org.glucosio.android.R;
+import java.util.Calendar;
+import java.util.List;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.activity.RemindersActivity;
 import faithworks.diabetesmonitoring.android.db.Reminder;
 import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
-
-import java.util.Calendar;
-import java.util.List;
 
 public class RemindersAdapter extends ArrayAdapter<Reminder> {
     private Context context;

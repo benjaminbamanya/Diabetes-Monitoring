@@ -32,13 +32,13 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import org.glucosio.android.R;
+import java.util.HashMap;
+import java.util.Map;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.presenter.ExternalViewPresenter;
 import faithworks.diabetesmonitoring.android.tools.network.BasicNetworkConnectivity;
 import faithworks.diabetesmonitoring.android.tools.network.GlucosioExternalLinks;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class ExternalLinkActivity extends AppCompatActivity implements ExternalViewPresenter.View {
 

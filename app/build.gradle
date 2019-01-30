@@ -24,7 +24,7 @@ apply plugin: 'jacoco'
 apply plugin: 'realm-android'
 
 android {
-    compileSdkVersion buildConfig.compileSdk
+    compileSdkVersion 28
 
     lintOptions {
         abortOnError false

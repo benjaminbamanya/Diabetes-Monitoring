@@ -62,12 +62,6 @@ import com.google.android.gms.drive.query.SortOrder;
 import com.google.android.gms.drive.query.SortableField;
 import com.google.firebase.crash.FirebaseCrash;
 
-import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.adapter.BackupAdapter;
-import faithworks.diabetesmonitoring.android.backup.Backup;
-import faithworks.diabetesmonitoring.android.object.GlucosioBackup;
-
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileInputStream;
@@ -79,6 +73,11 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Date;
 
+import faithworks.diabetesmonitoring.android.GlucosioApplication;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.adapter.BackupAdapter;
+import faithworks.diabetesmonitoring.android.backup.Backup;
+import faithworks.diabetesmonitoring.android.object.GlucosioBackup;
 import io.realm.Realm;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

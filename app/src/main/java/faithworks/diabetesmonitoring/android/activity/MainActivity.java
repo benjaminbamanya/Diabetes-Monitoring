@@ -68,8 +68,10 @@ import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
+import java.util.Calendar;
+
 import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.adapter.HomePagerAdapter;
 import faithworks.diabetesmonitoring.android.analytics.Analytics;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
@@ -77,9 +79,6 @@ import faithworks.diabetesmonitoring.android.presenter.ExportPresenter;
 import faithworks.diabetesmonitoring.android.presenter.MainPresenter;
 import faithworks.diabetesmonitoring.android.tools.LocaleHelper;
 import faithworks.diabetesmonitoring.android.view.ExportView;
-
-import java.util.Calendar;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 

@@ -60,9 +60,13 @@ import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+
 import faithworks.diabetesmonitoring.android.Constants;
 import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.adapter.A1cEstimateAdapter;
 import faithworks.diabetesmonitoring.android.presenter.OverviewPresenter;
 import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
@@ -71,10 +75,6 @@ import faithworks.diabetesmonitoring.android.tools.GlucosioConverter;
 import faithworks.diabetesmonitoring.android.tools.ReadingTools;
 import faithworks.diabetesmonitoring.android.tools.TipsManager;
 import faithworks.diabetesmonitoring.android.view.OverviewView;
-
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
 
 public class OverviewFragment extends Fragment implements OverviewView {
 

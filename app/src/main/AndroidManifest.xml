@@ -18,7 +18,7 @@
   ~
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.glucosio.android">
+    package="faithworks.diabetesmonitoring.android">
 
     <!-- Required to read FreeStyle Libre -->
     <uses-permission
@@ -82,7 +82,7 @@
             android:theme="@style/GlucosioSettings">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.PreferencesActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.PreferencesActivity" />
         </activity>
 
         <provider
@@ -103,7 +103,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.AddWeightActivity"
@@ -112,7 +112,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.AddCholesterolActivity"
@@ -121,7 +121,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.AddKetoneActivity"
@@ -130,7 +130,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.AddPressureActivity"
@@ -139,7 +139,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.AddA1CActivity"
@@ -148,7 +148,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
         <activity
             android:name="faithworks.diabetesmonitoring.android.activity.FreestyleLibreActivity"
@@ -173,7 +173,7 @@
             android:windowSoftInputMode="stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.glucosio.android.faithworks.glucosio.android.activity.MainActivity" />
+                android:value="faithworks.diabetesmonitoring.android.activity.MainActivity" />
         </activity>
 
         <!-- Google Cloud Messaging receiver -->
@@ -193,7 +193,7 @@
 
         <service android:name="faithworks.diabetesmonitoring.android.service.DataLayerListenerService">
             <intent-filter>
-                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
             </intent-filter>
         </service>
         <service android:name="faithworks.diabetesmonitoring.android.service.GlucosioFirebaseMessagingService">
@@ -203,7 +203,7 @@
         </service>
 
         <receiver
-            android:name="org.glucosio.android.faithworks.glucosio.android.receivers.GlucosioBroadcastReceiver"
+            android:name="faithworks.diabetesmonitoring.android.receivers.GlucosioBroadcastReceiver"
             android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

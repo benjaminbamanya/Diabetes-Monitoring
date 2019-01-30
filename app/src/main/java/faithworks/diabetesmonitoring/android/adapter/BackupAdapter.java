@@ -14,12 +14,12 @@ import android.widget.TextView;
 
 import com.google.android.gms.drive.DriveId;
 
-import org.glucosio.android.R;
+import java.util.List;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.activity.BackupActivity;
 import faithworks.diabetesmonitoring.android.object.GlucosioBackup;
 import faithworks.diabetesmonitoring.android.tools.FormatDateTime;
-
-import java.util.List;
 
 public class BackupAdapter extends ArrayAdapter<GlucosioBackup> {
 

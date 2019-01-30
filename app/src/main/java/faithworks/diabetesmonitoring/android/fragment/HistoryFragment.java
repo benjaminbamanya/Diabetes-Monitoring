@@ -42,7 +42,7 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.activity.AddA1CActivity;
 import faithworks.diabetesmonitoring.android.activity.AddCholesterolActivity;
 import faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity;

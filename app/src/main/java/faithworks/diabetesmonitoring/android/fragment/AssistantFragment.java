@@ -36,20 +36,19 @@ import android.view.animation.TranslateAnimation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity;
-import faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity;
-import faithworks.diabetesmonitoring.android.activity.MainActivity;
-import faithworks.diabetesmonitoring.android.adapter.AssistantAdapter;
-import faithworks.diabetesmonitoring.android.object.ActionTip;
-import faithworks.diabetesmonitoring.android.presenter.AssistantPresenter;
-
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.activity.A1cCalculatorActivity;
+import faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity;
+import faithworks.diabetesmonitoring.android.activity.MainActivity;
+import faithworks.diabetesmonitoring.android.adapter.AssistantAdapter;
+import faithworks.diabetesmonitoring.android.object.ActionTip;
+import faithworks.diabetesmonitoring.android.presenter.AssistantPresenter;
 
 public class AssistantFragment extends Fragment {
 

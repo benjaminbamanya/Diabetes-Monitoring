@@ -8,10 +8,10 @@ import android.media.RingtoneManager;
 import android.os.Build;
 import android.support.v4.app.NotificationManagerCompat;
 
-import org.glucosio.android.R;
-import faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity;
-
 import java.util.Random;
+
+import faithworks.diabetesmonitoring.android.R;
+import faithworks.diabetesmonitoring.android.activity.AddGlucoseActivity;
 
 public class GlucosioNotificationManager {
     //private static final String REMOTE_INPUT_KEY = "glucosio_remote_key";

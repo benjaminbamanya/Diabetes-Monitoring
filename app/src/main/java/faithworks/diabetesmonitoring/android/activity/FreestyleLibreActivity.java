@@ -35,18 +35,18 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+import java.util.Arrays;
+
 import faithworks.diabetesmonitoring.android.Constants;
 import faithworks.diabetesmonitoring.android.GlucosioApplication;
-import org.glucosio.android.R;
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.DatabaseHandler;
 import faithworks.diabetesmonitoring.android.db.User;
 import faithworks.diabetesmonitoring.android.object.PredictionData;
 import faithworks.diabetesmonitoring.android.object.ReadingData;
 import faithworks.diabetesmonitoring.android.tools.AlgorithmUtil;
 import faithworks.diabetesmonitoring.android.tools.AnimationTools;
-
-import java.io.IOException;
-import java.util.Arrays;
 
 public class FreestyleLibreActivity extends Activity {
 

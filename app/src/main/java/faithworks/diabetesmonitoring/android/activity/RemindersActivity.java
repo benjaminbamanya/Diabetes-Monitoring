@@ -18,12 +18,12 @@ import android.widget.ListView;
 import android.widget.TableLayout;
 import android.widget.TimePicker;
 
-import org.glucosio.android.R;
+import java.util.Calendar;
+
+import faithworks.diabetesmonitoring.android.R;
 import faithworks.diabetesmonitoring.android.db.Reminder;
 import faithworks.diabetesmonitoring.android.presenter.RemindersPresenter;
 import faithworks.diabetesmonitoring.android.tools.AnimationTools;
-
-import java.util.Calendar;
 
 public class RemindersActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener {
 

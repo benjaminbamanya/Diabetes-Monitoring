@@ -39,9 +39,9 @@ import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
-import org.glucosio.android.R;
-
 import java.util.List;
+
+import faithworks.diabetesmonitoring.android.R;
 
 public class LabelledSpinner extends LinearLayout implements AdapterView.OnItemSelectedListener {
 
