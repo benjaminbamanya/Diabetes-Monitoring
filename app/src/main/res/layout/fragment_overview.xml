@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 Glucosio Foundation
+  ~
+  ~ This file is part of Glucosio.
+  ~
+  ~ Glucosio is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, version 3.
+  ~
+  ~ Glucosio is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Glucosio.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  ~
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="#ffffff"
+    tools:context="org.glucosio.android.fragment.OverviewFragment"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/fab_size_normal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/chart_spinner_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:dropDownWidth="wrap_content"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/chart_spinner_metrics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:dropDownWidth="wrap_content"
+                android:spinnerMode="dropdown"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/fragment_overview_graph_export"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_photo_black_24dp" />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#DADADA" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_glucose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_glucose"
+                    android:checked="true"
+                    android:padding="4dp"
+                    android:text="@string/fab_glucose"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_a1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_a1c"
+                    android:padding="4dp"
+                    android:text="@string/fab_HB1AC"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_ketones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_ketones"
+                    android:padding="4dp"
+                    android:text="@string/fab_ketones"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_weight"
+                    android:padding="4dp"
+                    android:text="@string/fab_weight"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_pressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_pressure"
+                    android:padding="4dp"
+                    android:text="@string/fab_pressure"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/fragment_overview_graph_cholesterol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/selector_checkbox_cholesterol"
+                    android:padding="4dp"
+                    android:text="@string/fab_cholesterol"
+                    android:textColor="@color/glucosio_text_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="16dp"
+            android:background="#DADADA" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/fragment_overview_last_reading"
+                    android:textColor="@color/glucosio_text" />
+
+                <TextView
+                    android:id="@+id/item_history_reading"
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="100 mg/dL"
+                    android:textColor="@color/glucosio_text" />
+
+                <TextView
+                    android:id="@+id/fragment_overview_last_date"
+                    fontPath="fonts/lato.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Thu, 22 dic 2016"
+                    android:textColor="@color/glucosio_text_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:text=""
+                android:visibility="gone">
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/fragment_overview_trend"
+                    android:textColor="@color/glucosio_text_light" />
+
+                <TextView
+                    android:id="@+id/item_history_trend"
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/fragment_overview_trend_positive"
+                    android:textColor="@color/glucosio_text_green" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="16dp"
+            android:background="#DADADA" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/overview_hb1ac"
+                    android:textColor="@color/glucosio_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:onClick="onA1cInfoClicked"
+                    app:srcCompat="@drawable/ic_error_outline_black_24dp" />
+
+                <TextView
+                    android:id="@+id/fragment_overview_hb1ac"
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="6.5%"
+                    android:textColor="@color/glucosio_text" />
+
+                <TextView
+                    android:id="@+id/fragment_overview_hb1ac_date"
+                    fontPath="fonts/lato.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:text="December"
+                    android:textColor="@color/glucosio_text_light"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/fragment_overview_a1c_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/ic_unfold_more_black_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#DADADA" />
+
+        <TextView
+            fontPath="fonts/lato-bold.ttf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/tab_tips"
+            android:textColor="@color/glucosio_text" />
+
+        <TextView
+            android:id="@+id/random_tip_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="64dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Always bring a banana to a party, Rose, bananas are good!"
+            android:textColor="@color/glucosio_text" />
+    </LinearLayout>
+</ScrollView>
