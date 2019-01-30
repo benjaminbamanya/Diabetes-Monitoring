@@ -9,14 +9,18 @@ import android.util.Log;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import faithworks.diabetesmonitoring.android.BuildConfig;
 
 public class GlucosioGoogleAnalytics implements Analytics {
     private Tracker mTracker;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     public void init(@NonNull final Context context) {
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(context);
+
         GoogleAnalytics analytics = GoogleAnalytics.getInstance(context);
         // To enable debug logging use: adb shell setprop log.tag.GAv4 DEBUG
         mTracker = analytics.newTracker(BuildConfig.GOOGLE_ANALYTICS_TRACKER);

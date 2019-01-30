@@ -28,7 +28,7 @@ buildscript {
 
     dependencies {
         classpath deps.buildScript.androidGradlePlugin
-        classpath deps.buildScript.playServicesGradlePlugin
+        classpath "com.google.gms:google-services:4.2.0"
         classpath deps.buildScript.realmGradlePlugin
 
         classpath deps.buildScript.coveralsGradlePlugin
