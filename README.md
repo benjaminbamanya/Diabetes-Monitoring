@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/glucosio/localized.png)](https://crowdin.com/project/glucosio)
-[![Build Status](https://travis-ci.org/Glucosio/glucosio-android.svg)](https://travis-ci.org/Glucosio/glucosio-android)
+[![Build Status](https://travis-ci.org/benjaminbamanya/Diabetes-Monitoring.svg?branch=master)](https://travis-ci.org/benjaminbamanya/Diabetes-Monitoring)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6f7bcc22a174ac9b36795438c143b6d)](https://www.codacy.com/app/Glucosio/glucosio-android?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Glucosio/glucosio-android&amp;utm_campaign=Badge_Grade)
 [![Coverage Status](https://coveralls.io/repos/github/Glucosio/glucosio-android/badge.svg?branch=develop)](https://coveralls.io/github/Glucosio/glucosio-android?branch=develop)
 
